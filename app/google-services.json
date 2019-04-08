@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1071092326174",
+    "firebase_url": "https://fir-c4a66.firebaseio.com",
+    "project_id": "fir-c4a66",
+    "storage_bucket": "fir-c4a66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071092326174:android:a40ed6eb08e920be",
+        "android_client_info": {
+          "package_name": "com.example.firebasedemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJDMDLg12MggXuHdIT8A-3Ohos2C5kbBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071092326174-udl3k5n842q36h29j6c3e9896cqlre43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071092326174:android:8587a0d493e0d501",
+        "android_client_info": {
+          "package_name": "com.huextrat.taskist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071092326174-b7s4ksjkaq7p5vrn798i8nsth9i79oa0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.huextrat.taskist",
+            "certificate_hash": "5d578f5b2b309cd9af3296263d44f5cb284a4ef4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJDMDLg12MggXuHdIT8A-3Ohos2C5kbBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071092326174-udl3k5n842q36h29j6c3e9896cqlre43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
