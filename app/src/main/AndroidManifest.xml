@@ -13,23 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".TextRecognitionActivity.TextRecognitionActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+        </activity>
         <activity
             android:name=".barcodescanning.BarcodeScanningActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".FaceDetection.FaceDetectionActivity"
             android:theme="@style/AppTheme.NoActionBar"
-            tools:ignore="InnerclassSeparator">
+            tools:ignore="InnerclassSeparator"/>
 
-        </activity>
-
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <meta-data
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
             android:value="face" />
